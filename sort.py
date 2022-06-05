@@ -3,8 +3,8 @@ import array
 a_array=[]
 lst=[]
 while True:
-    x=input("Enter a number or type the exit: ")
-    if x == "exit":
+    x=int(input("Enter a number or -1 to exit: "))
+    if x == -1:
         break
     else:
         a_array.append(x)
