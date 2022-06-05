@@ -7,11 +7,8 @@ random_array=[]
 
 for i in range(n):
     a= randint(0, 1000+n)
-    if a == random_array:
-        break
-    else:
+    if a not in random_array:
         random_array.append(a)
-
     
 
 print(random_array)
